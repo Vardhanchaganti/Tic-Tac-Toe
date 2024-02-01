@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+body{
+    text-align: center;
+    background-color:#C83E4D;
+}
+.container{
+    
+    height:70vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.box{
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7vmin;
+}
+.v_btn{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 0.2rem white;
+    border: none;
+    font-size: 5vmin;
+    font-weight: bold;
+    color:black;
+    background-color: peachpuff;
+}
+h2{
+    color: white;
+    padding:1vmin;
+}
+.reset{
+    width: 12vh;
+    height: 5vw;
+    margin-top: 5vmin;
+    border-radius: 2rem;
+    background-color: #fb6f92;
+    box-shadow: 0px 0px 0.5rem #c0047b51;
+    font-size: 0.5rem;
+}
+#winner .new{
+    
+    font-size:large;
+    justify-content: center;
+    align-items: center;
+}
+.new{
+    width: 12vh;
+    height: 5vw;
+    margin-top: 5vmin;
+    border-radius: 2rem;
+    background-color: #fb6f92;
+    box-shadow: 0px 0px 0.5rem #c0047b51;
+    font-size: 0.5rem;
+}
+.msg{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide{
+    display: none;
+}
